@@ -1,0 +1,21 @@
+h1{
+   
+    font-family: fantasy;
+    padding-bottom: 2%;
+
+}
+h2{
+    margin-bottom: 2%;
+}
+body{
+    background-color: goldenrod;
+    
+
+}
+div{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

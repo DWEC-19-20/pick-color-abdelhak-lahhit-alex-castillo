@@ -3,6 +3,43 @@
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 <html>
-    <body>
+    <body >
+        <center>
+            <h1>PICK COLOR</h1>
+        <label for="r" class="red">R </label>
+        <input id="r"  type="text" min="0" max="255" onchange="document.getElementById('r').value=this.value; convert();"></input>
+        <label for="g" class="green">G </label>
+        <input id="g"  type="text" min="0" max="255"  onchange="document.getElementById('g').value=this.value; convert();"></input>
+        <label for="b" class="blue">B </label>
+        <input id="b"  type="text" min="0" max="255"  onchange="document.getElementById('b').value=this.value; convert();"></input>
+       
+    
+        <br><br>
+        <label for="hexad">Valor en hexadecimal </label>
+        <input name="hexad" id="hex" readonly ></input>
+            <br>
+            <br>
+            <div id="caja">
+
+            </div>
+    <hr>
+    <br>
+    
+    
+    
+    
+       <label for="hex">Introduce valor en hexadecimal </label>  
+        <input type="text" id="rgb" value="#">
+        <input type="submit" value="Transformar" onclick="convertir()">
+        <br><br>
+        <label for="hexadecimal">Valor en RGB </label>
+        <div id="cajaa">
+
+            </div>
+        <input type="text" id="int" name="convertir">
+
+    </center>
+       <script src="js/rgb.js"> </script>
+  
     </body>
 </html>
